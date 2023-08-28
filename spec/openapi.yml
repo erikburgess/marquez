@@ -254,7 +254,6 @@ paths:
   /namespaces/{namespace}/datasets:
     parameters:
       - $ref: '#/components/parameters/namespace'
-      - $ref: '#/components/parameters/dataset'
     get:
       operationId: getDatasets
       parameters:
